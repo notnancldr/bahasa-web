@@ -9,7 +9,7 @@ export const InspectorSection: React.FC = () => {
   const { result, fileName, isProcessing, processFile, reset } = useEuyValidator();
 
   return (
-    <section id="inspector" className="py-20 border-t border-[rgba(125,138,143,0.30)]">
+    <section id="inspector" className="py-12 border-t border-[rgba(125,138,143,0.30)]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mb-14 space-y-4">
           <h2 className="text-3xl sm:text-4xl font-black text-[#2F3A3F] dark:text-[#E8EFF1] tracking-tight">

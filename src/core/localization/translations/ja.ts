@@ -2,6 +2,7 @@ import { TranslationSchema } from '../locale.types';
 
 export const jaTranslation: TranslationSchema = {
   nav: {
+    basa: 'Basa',
     aboutBasa: 'Basaとは？',
     sampler: 'デモ',
     aboutEuy: '.euyとは？',
@@ -13,7 +14,6 @@ export const jaTranslation: TranslationSchema = {
     github: 'GitHub',
   },
   hero: {
-    badge: 'オープン・完全ローカル・プライバシー重視の語学学習',
     headline: 'どんな言語も学べる。',
     headlineHighlight: 'すべての言葉を自分のものに。',
     subheadline:

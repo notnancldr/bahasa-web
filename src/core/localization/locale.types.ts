@@ -18,6 +18,7 @@ export const SUPPORTED_LOCALES: LocaleMetadata[] = [
 
 export interface TranslationSchema {
   nav: {
+    basa: string;
     aboutBasa: string;
     sampler: string;
     aboutEuy: string;
@@ -29,7 +30,6 @@ export interface TranslationSchema {
     github: string;
   };
   hero: {
-    badge: string;
     headline: string;
     headlineHighlight: string;
     subheadline: string;

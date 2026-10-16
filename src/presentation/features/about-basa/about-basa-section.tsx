@@ -43,7 +43,7 @@ export const AboutBasaSection: React.FC = () => {
   ];
 
   return (
-    <section id="about-basa" className="relative py-24 border-b border-[rgba(125,138,143,0.18)] overflow-hidden">
+    <section id="about-basa" className="relative py-12 border-b border-[rgba(125,138,143,0.18)] overflow-hidden">
       {/* Background Shape Accent */}
       <div className="absolute top-1/2 -right-24 -translate-y-1/2 w-96 h-96 opacity-[0.03] dark:opacity-[0.04] pointer-events-none text-[#FFD3B0]">
         <MaterialShape type="shield" className="w-full h-full" />

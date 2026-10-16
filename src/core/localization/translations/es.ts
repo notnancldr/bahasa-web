@@ -2,6 +2,7 @@ import { TranslationSchema } from '../locale.types';
 
 export const esTranslation: TranslationSchema = {
   nav: {
+    basa: 'Basa',
     aboutBasa: '¿Qué es Basa?',
     sampler: 'Simulación',
     aboutEuy: '¿Qué es .euy?',
@@ -13,7 +14,6 @@ export const esTranslation: TranslationSchema = {
     github: 'GitHub',
   },
   hero: {
-    badge: 'Compañero de idiomas abierto, soberano y sin conexión',
     headline: 'Aprende cualquier idioma.',
     headlineHighlight: 'Haz tuyas las palabras.',
     subheadline:

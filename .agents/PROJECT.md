@@ -64,4 +64,3 @@ bahasa-web/
 - **Text Muted:** `#7D8A8F` (Dark: `#9AA8AD`)
 - **Typography:** Nunito Sans, with font weights 400, 600, 700, 800.
 - **Button Styling:** Tactile `EmbossedButton` with solid `1.5px` border stroke and soft active depression.
-

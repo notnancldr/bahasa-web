@@ -12,7 +12,7 @@ export const DownloadsSection: React.FC = () => {
   const { deckItems, loading, filter, setFilter, searchQuery, setSearchQuery } = useReleases();
 
   return (
-    <section id="downloads" className="relative py-24 border-b border-[rgba(125,138,143,0.18)] overflow-hidden">
+    <section id="downloads" className="relative py-12 border-b border-[rgba(125,138,143,0.18)] overflow-hidden">
       {/* Background Shape Accent */}
       <div className="absolute top-1/3 -right-20 w-80 h-80 opacity-[0.03] dark:opacity-[0.04] pointer-events-none text-[#FFD3B0]">
         <MaterialShape type="scallop-12" className="w-full h-full" />

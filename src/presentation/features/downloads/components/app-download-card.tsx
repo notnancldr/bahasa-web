@@ -16,7 +16,7 @@ export const AppDownloadCard: React.FC = () => {
   ];
 
   return (
-    <div className="relative mb-16 p-6 sm:p-8 rounded-2xl border border-[rgba(125,138,143,0.30)] bg-[#FAFAF8] dark:bg-[#171F23] shadow-sm">
+    <div className="relative mb-12 p-6 sm:p-8 rounded-2xl border border-[rgba(125,138,143,0.30)] bg-[#FAFAF8] dark:bg-[#171F23] shadow-sm">
       <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
         {/* Left: App Identity & Description */}
         <div className="space-y-4 max-w-2xl">

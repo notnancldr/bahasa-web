@@ -2,6 +2,7 @@ import { TranslationSchema } from '../locale.types';
 
 export const idTranslation: TranslationSchema = {
   nav: {
+    basa: 'Basa',
     aboutBasa: 'Apa itu Basa?',
     sampler: 'Simulasi',
     aboutEuy: 'Apa itu .euy?',
@@ -13,7 +14,6 @@ export const idTranslation: TranslationSchema = {
     github: 'GitHub',
   },
   hero: {
-    badge: 'Aplikasi belajar terbuka, lokal, dan berdaulat penuh',
     headline: 'Pelajari bahasa apa saja.',
     headlineHighlight: 'Miliki setiap kosakatanya.',
     subheadline:

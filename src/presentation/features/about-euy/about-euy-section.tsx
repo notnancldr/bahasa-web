@@ -38,7 +38,7 @@ export const AboutEuySection: React.FC = () => {
   ];
 
   return (
-    <section id="about-euy" className="relative py-24 border-b border-[rgba(125,138,143,0.18)] overflow-hidden">
+    <section id="about-euy" className="relative py-12 border-b border-[rgba(125,138,143,0.18)] overflow-hidden">
       {/* Background Shape Accent */}
       <div className="absolute top-10 -left-20 w-80 h-80 opacity-[0.03] dark:opacity-[0.04] pointer-events-none text-[#A9D6E5]">
         <MaterialShape type="clover-8" className="w-full h-full" />

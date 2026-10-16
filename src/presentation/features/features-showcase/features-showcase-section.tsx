@@ -43,14 +43,14 @@ export const FeaturesShowcaseSection: React.FC = () => {
   ];
 
   return (
-    <section id="features" className="relative py-24 border-b border-[rgba(125,138,143,0.18)] overflow-hidden">
+    <section id="features" className="relative py-6 border-b border-[rgba(125,138,143,0.18)] overflow-hidden">
       {/* Background Shape Accent */}
       <div className="absolute top-1/2 -right-20 -translate-y-1/2 w-80 h-80 opacity-[0.03] dark:opacity-[0.04] pointer-events-none text-[#5B93AE]">
         <MaterialShape type="clover-8" className="w-full h-full" />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mb-20 space-y-4">
+        <div className="max-w-3xl mb-12 space-y-4">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#2F3A3F] dark:text-[#E8EFF1] tracking-tight leading-[1.15]">
             {t.features.title}
           </h2>
