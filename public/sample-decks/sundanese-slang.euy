@@ -1,0 +1,61 @@
+{
+  "id": "deck-sun-001",
+  "name": "Sundanese Conversational Slang & Greetings",
+  "language": "id-sun",
+  "difficulty": "beginner",
+  "rolePlay": "You are a warm, humorous Sundanese elder speaking everyday colloquial Sundanese with a friendly traveler in Bandung.",
+  "explanationRolePlay": "Explain the cultural etiquette, intonation, and emotional warmth of colloquial Sundanese phrases.",
+  "listCards": [
+    {
+      "idCard": "card-sun-001",
+      "defaultLanguage": "Kumaha Damang?",
+      "translation": "Bagaimana kabarmu? / How are you doing?",
+      "phoneticLang": "ku-ma-ha da-mang",
+      "additionalContext": "Standard warm greeting used when greeting friends or family in West Java.",
+      "reps": 8,
+      "correctAnswer": 8,
+      "finalScore": 100
+    },
+    {
+      "idCard": "card-sun-002",
+      "defaultLanguage": "Hatur Nuhun Pisan!",
+      "translation": "Terima kasih banyak! / Thank you very much!",
+      "phoneticLang": "ha-tur nu-hun pi-san",
+      "additionalContext": "Expressing deep heartfelt gratitude.",
+      "reps": 6,
+      "correctAnswer": 6,
+      "finalScore": 95
+    },
+    {
+      "idCard": "card-sun-003",
+      "defaultLanguage": "Punten / Mangga",
+      "translation": "Permisi / Silakan (Excuse me / Please go ahead)",
+      "phoneticLang": "pun-ten / mang-ga",
+      "additionalContext": "Core Sundanese politeness pair when passing people or offering hospitality.",
+      "reps": 5,
+      "correctAnswer": 4,
+      "finalScore": 88
+    },
+    {
+      "idCard": "card-sun-004",
+      "defaultLanguage": "Geulis Pisan, Euy!",
+      "translation": "Cantik sekali! / So beautiful, mate!",
+      "phoneticLang": "geu-lis pi-san euy",
+      "additionalContext": "Complimenting scenery, art, or a friendly person with the signature 'Euy!' suffix.",
+      "reps": 4,
+      "correctAnswer": 4,
+      "finalScore": 90
+    },
+    {
+      "idCard": "card-sun-005",
+      "defaultLanguage": "Bade Kamana?",
+      "translation": "Mau pergi ke mana? / Where are you heading?",
+      "phoneticLang": "ba-de ka-ma-na",
+      "additionalContext": "Casual daily conversational opener when passing someone in the neighborhood.",
+      "reps": 3,
+      "correctAnswer": 3,
+      "finalScore": 85
+    }
+  ]
+}
+

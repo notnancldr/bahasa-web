@@ -1,0 +1,61 @@
+{
+  "id": "deck-jp-001",
+  "name": "Everyday Japanese Survival Essentials",
+  "language": "ja",
+  "difficulty": "beginner",
+  "rolePlay": "You are a polite barista at a cozy Tokyo coffee shop helping a customer order and interact naturally in Japanese.",
+  "explanationRolePlay": "Provide polite vs casual breakdowns, romaji pronunciation guides, and cultural context.",
+  "listCards": [
+    {
+      "idCard": "card-jp-001",
+      "defaultLanguage": "Ogenki desu ka? (お元気ですか？)",
+      "translation": "How are you? / Apa kabar?",
+      "phoneticLang": "o-gen-ki de-su ka",
+      "additionalContext": "Polite inquiry into someone's health and wellbeing.",
+      "reps": 12,
+      "correctAnswer": 12,
+      "finalScore": 98
+    },
+    {
+      "idCard": "card-jp-002",
+      "defaultLanguage": "Arigatou gozaimasu (ありがとうございます)",
+      "translation": "Thank you very much / Terima kasih banyak",
+      "phoneticLang": "a-ri-ga-tou go-zai-ma-su",
+      "additionalContext": "Standard polite gratitude in stores, restaurants, and daily life.",
+      "reps": 15,
+      "correctAnswer": 15,
+      "finalScore": 100
+    },
+    {
+      "idCard": "card-jp-003",
+      "defaultLanguage": "Sumimasen (すみません)",
+      "translation": "Excuse me / I am sorry / Permisi",
+      "phoneticLang": "su-mi-ma-sen",
+      "additionalContext": "Versatile phrase for calling a waiter, apologizing, or passing through a crowd.",
+      "reps": 10,
+      "correctAnswer": 9,
+      "finalScore": 92
+    },
+    {
+      "idCard": "card-jp-004",
+      "defaultLanguage": "Kore o onegaishimasu (これをお願いします)",
+      "translation": "This one, please / Tolong yang ini",
+      "phoneticLang": "ko-re o o-ne-gai-shi-ma-su",
+      "additionalContext": "Essential sentence when pointing at a menu item or product.",
+      "reps": 7,
+      "correctAnswer": 7,
+      "finalScore": 90
+    },
+    {
+      "idCard": "card-jp-005",
+      "defaultLanguage": "Oishii desu! (美味しいです！)",
+      "translation": "It is delicious! / Enak sekali!",
+      "phoneticLang": "oi-shii de-su",
+      "additionalContext": "Expressing joy to the chef or host after tasting food.",
+      "reps": 6,
+      "correctAnswer": 6,
+      "finalScore": 95
+    }
+  ]
+}
+

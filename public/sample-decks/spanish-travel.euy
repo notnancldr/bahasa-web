@@ -1,0 +1,51 @@
+{
+  "id": "deck-es-001",
+  "name": "Spanish Travel & Street Navigation",
+  "language": "es",
+  "difficulty": "intermediate",
+  "rolePlay": "You are a friendly local guide in Barcelona giving directions and food recommendations in conversational Spanish.",
+  "explanationRolePlay": "Clarify grammatical gender, formal vs informal address (tú vs usted), and regional Spanish idioms.",
+  "listCards": [
+    {
+      "idCard": "card-es-001",
+      "defaultLanguage": "¿Dónde está la estación de tren?",
+      "translation": "Where is the train station? / Di mana stasiun kereta?",
+      "phoneticLang": "don-de es-ta la es-ta-cion de tren",
+      "additionalContext": "Vital phrase for city navigation and transit hubs.",
+      "reps": 9,
+      "correctAnswer": 9,
+      "finalScore": 96
+    },
+    {
+      "idCard": "card-es-002",
+      "defaultLanguage": "La cuenta, por favor",
+      "translation": "The check / bill, please / Minta tagihannya, tolong",
+      "phoneticLang": "la cuen-ta por fa-vor",
+      "additionalContext": "Standard phrase to conclude a meal at tapas bars and restaurants.",
+      "reps": 11,
+      "correctAnswer": 11,
+      "finalScore": 100
+    },
+    {
+      "idCard": "card-es-003",
+      "defaultLanguage": "¿Cuánto cuesta esto?",
+      "translation": "How much does this cost? / Berapa harganya ini?",
+      "phoneticLang": "cuan-to cues-ta es-to",
+      "additionalContext": "Essential shopping and market phrase.",
+      "reps": 8,
+      "correctAnswer": 8,
+      "finalScore": 94
+    },
+    {
+      "idCard": "card-es-004",
+      "defaultLanguage": "Mucho gusto en conocerte",
+      "translation": "Nice to meet you / Senang berkenalan denganmu",
+      "phoneticLang": "mu-cho gus-to en co-no-cer-te",
+      "additionalContext": "Friendly social greeting upon initial introduction.",
+      "reps": 6,
+      "correctAnswer": 6,
+      "finalScore": 92
+    }
+  ]
+}
+

@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Nunito Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Official 10 BASA Design Tokens */
+  --color-primary: #A9D6E5;
+  --color-primary-dark: #5B93AE;
+  --color-secondary: #FFD3B0;
+  --color-accent: #C9B6E4;
+  --color-background: #FAFAF8;
+  --color-success: #A8D5A2;
+  --color-warning: #FFD59E;
+  --color-error: #F4A6A6;
+  --color-text-primary: #2F3A3F;
+  --color-text-secondary: #7D8A8F;
+
+  /* Neutrals & Dark Surfaces */
+  --color-canvas-dark: #0F1417;
+  --color-surface-dark: #171F23;
+  --color-elevated-dark: #1F292E;
+  --color-text-dark: #E8EFF1;
+  --color-text-dark-muted: #9AA8AD;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+  }
+
+  .dark body {
+    background-color: var(--color-canvas-dark);
+    color: var(--color-text-dark);
+  }
+}
+
+/* Custom Embossed Button Styles matching BASA design.md */
+.btn-embossed-primary {
+  background-color: #A9D6E5;
+  color: #2F3A3F;
+  border: 1.5px solid #5B93AE;
+  box-shadow: 0 3px 0 0 #5B93AE;
+  transition: all 0.15s ease-in-out;
+  min-height: 44px;
+}
+
+.btn-embossed-primary:hover {
+  filter: brightness(1.02);
+}
+
+.btn-embossed-primary:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 0 #5B93AE;
+}
+
+.btn-embossed-secondary {
+  background-color: #FFD3B0;
+  color: #2F3A3F;
+  border: 1.5px solid rgba(125, 138, 143, 0.30);
+  box-shadow: 0 3px 0 0 rgba(125, 138, 143, 0.30);
+  transition: all 0.15s ease-in-out;
+  min-height: 44px;
+}
+
+.btn-embossed-secondary:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 0 rgba(125, 138, 143, 0.30);
+}
+
+.btn-embossed-neutral {
+  background-color: rgba(125, 138, 143, 0.08);
+  color: #2F3A3F;
+  border: 1.5px solid rgba(125, 138, 143, 0.30);
+  box-shadow: 0 3px 0 0 rgba(125, 138, 143, 0.30);
+  transition: all 0.15s ease-in-out;
+  min-height: 44px;
+}
+
+.dark .btn-embossed-neutral {
+  background-color: #1F292E;
+  color: #E8EFF1;
+  border-color: rgba(125, 138, 143, 0.30);
+  box-shadow: 0 3px 0 0 rgba(125, 138, 143, 0.30);
+}
+
+.btn-embossed-neutral:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 0 rgba(125, 138, 143, 0.30);
+}
+
+.dark .btn-embossed-neutral:active {
+  box-shadow: 0 1px 0 0 rgba(125, 138, 143, 0.30);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Deck",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["beginner", "intermediate", "expert"]
+    },
+    "rolePlay": {
+      "type": "string"
+    },
+    "explanationRolePlay": {
+      "type": "string"
+    },
+    "listCards": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Card"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "language",
+    "difficulty",
+    "rolePlay",
+    "explanationRolePlay",
+    "listCards"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "Card": {
+      "type": "object",
+      "properties": {
+        "idCard": {
+          "type": "string"
+        },
+        "defaultLanguage": {
+          "type": "string"
+        },
+        "translation": {
+          "type": "string"
+        },
+        "phoneticLang": {
+          "type": "string"
+        },
+        "additionalContext": {
+          "type": "string"
+        },
+        "reps": {
+          "type": "integer"
+        },
+        "correctAnswer": {
+          "type": "integer"
+        },
+        "finalScore": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "idCard",
+        "defaultLanguage",
+        "translation",
+        "phoneticLang",
+        "additionalContext",
+        "reps",
+        "correctAnswer",
+        "finalScore"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
+

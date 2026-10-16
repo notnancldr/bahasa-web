@@ -1,0 +1,51 @@
+{
+  "id": "deck-en-001",
+  "name": "Colloquial English Idioms & Nuance",
+  "language": "en",
+  "difficulty": "intermediate",
+  "rolePlay": "You are a witty, supportive conversation coach helping an advanced learner master colorful figurative expressions.",
+  "explanationRolePlay": "Detail historical origin, formal vs casual tone, and common pitfalls when using idioms in modern English.",
+  "listCards": [
+    {
+      "idCard": "card-en-001",
+      "defaultLanguage": "Bite the bullet",
+      "translation": "Menghadapi situasi sulit dengan tabah / Face a difficult situation with fortitude",
+      "phoneticLang": "baɪt ðə ˈbʊl.ɪt",
+      "additionalContext": "To decide to do something difficult that you have been putting off.",
+      "reps": 10,
+      "correctAnswer": 9,
+      "finalScore": 90
+    },
+    {
+      "idCard": "card-en-002",
+      "defaultLanguage": "Break a leg!",
+      "translation": "Semoga berhasil! / Good luck! (especially before a performance)",
+      "phoneticLang": "breɪk ə leɡ",
+      "additionalContext": "Theatrical superstition that wishing someone good luck will bring bad luck.",
+      "reps": 14,
+      "correctAnswer": 14,
+      "finalScore": 100
+    },
+    {
+      "idCard": "card-en-003",
+      "defaultLanguage": "Once in a blue moon",
+      "translation": "Sangat jarang terjadi / Very rarely",
+      "phoneticLang": "wʌns ɪn ə bluː muːn",
+      "additionalContext": "Describing an event that happens extremely infrequently.",
+      "reps": 7,
+      "correctAnswer": 7,
+      "finalScore": 95
+    },
+    {
+      "idCard": "card-en-004",
+      "defaultLanguage": "Under the weather",
+      "translation": "Sedang kurang enak badan / Feeling slightly unwell or fatigued",
+      "phoneticLang": "ˈʌn.dər ðə ˈweð.ər",
+      "additionalContext": "Gentle, non-alarming way to mention you are not feeling at your best.",
+      "reps": 8,
+      "correctAnswer": 8,
+      "finalScore": 93
+    }
+  ]
+}
+
