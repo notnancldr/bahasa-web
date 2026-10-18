@@ -13,7 +13,7 @@ export const HeroActions: React.FC = () => {
   return (
     <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3.5 pt-2">
       <a
-        href="https://github.com/notnancldr/bahasa-flutter/releases/download/v0.1.0/app-arm64-v8a-release.apk"
+        href="https://github.com/notnancldr/bahasa-flutter/releases/download/v0.1.0/BASA.apk"
         download
       >
         <EmbossedButton
