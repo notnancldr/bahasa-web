@@ -64,7 +64,8 @@ export const AppDownloadCard: React.FC = () => {
         {/* Right: Actions */}
         <div className="flex flex-col sm:flex-row lg:flex-col gap-3 w-full lg:w-auto shrink-0">
           <a
-            href="https://github.com/notnancldr/bahasa-flutter/releases/latest/download/app-release.apk"
+            href="https://github.com/notnancldr/bahasa-flutter/releases/download/v0.1.0/app-arm64-v8a-release.apk"
+            download
             className="w-full sm:w-auto"
           >
             <EmbossedButton

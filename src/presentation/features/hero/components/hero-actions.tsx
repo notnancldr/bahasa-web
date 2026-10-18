@@ -12,14 +12,18 @@ export const HeroActions: React.FC = () => {
 
   return (
     <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3.5 pt-2">
-      <EmbossedButton
-        variant="primary"
-        size="lg"
-        icon={<Download className="w-5 h-5" />}
-        onClick={() => scrollTo('downloads')}
+      <a
+        href="https://github.com/notnancldr/bahasa-flutter/releases/download/v0.1.0/app-arm64-v8a-release.apk"
+        download
       >
-        {t.hero.ctaApp}
-      </EmbossedButton>
+        <EmbossedButton
+          variant="primary"
+          size="lg"
+          icon={<Download className="w-5 h-5" />}
+        >
+          {t.hero.ctaApp}
+        </EmbossedButton>
+      </a>
 
       <EmbossedButton
         variant="neutral"
